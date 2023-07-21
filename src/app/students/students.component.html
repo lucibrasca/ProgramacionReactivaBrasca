@@ -1,0 +1,12 @@
+
+<app-student-table [dataSource]="(students | async) || []"></app-student-table>
+<div>
+<li>
+  <ul *ngFor="let numero of numeros">
+    <span>
+      {{ numero }} 
+    </span>
+  </ul>
+</li>
+  
+</div>
